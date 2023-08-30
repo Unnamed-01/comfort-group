@@ -49,6 +49,10 @@ ul {
     display: flex;
 }
 
+.direction-column {
+    flex-direction: column;
+}
+
 .justify-around {
     justify-content: space-around;
 }
@@ -211,40 +215,55 @@ section.bg-gray {
     width: 260px;
 }
 
-.section-1 .privilege .icon {
+.section-1 .privilege .icon,
+.section-3 .advantages .icon {
     height: 135px;
     width: 135px;
     position: relative;
     margin-bottom: 50px;
 }
 
-.section-1 .privilege .icon img {
+.section-1 .privilege .icon img,
+.section-3 .advantages .icon img {
     height: 100%;
     width: 100%;
 }
 
-.section-1 .privilege .icon::before {
+/* .section-1 .privilege .icon::before {
     content: "";
-    background: url(assets\images\home-page-pictures\ellipse.svg);
+    background: url(../images/home-page-pictures/ellipse.svg);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     position: absolute;
 
-}
+} */
 
-.section-1 .privilege h2 {
+.section-1 .privilege h2,
+.section-3 .advantages h2 {
     font-size: 22px;
     font-weight: 600;
 }
 
 .section-1 .privilege h2,
-.section-1 .privilege p {
+.section-1 .privilege p,
+.section-3 .advantages h2,
+.section-3 .advantages p {
     text-align: center;
 }
 
-.section-1 .privilege p span {
+.section-1 .privilege p span,
+.section-3 .advantages p span {
     font-weight: 700;
+}
+
+.section-3 .advantages .col {
+    display: flex;
+    width: 360px;
+}
+
+.section-3 .advantages .icon {
+    margin-bottom: 10px;
 }
 
 /* _____!FOOTER!_____ */
