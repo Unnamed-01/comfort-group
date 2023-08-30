@@ -61,6 +61,10 @@ ul {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .justify-evenly {
     justify-content: space-evenly;
 }
@@ -264,6 +268,70 @@ section.bg-gray {
 
 .section-3 .advantages .icon {
     margin-bottom: 10px;
+}
+
+.section-4 {
+    padding: 116px 140px;
+    margin: 0 auto;
+}
+
+.section-4 .cols {
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 40px;
+    margin: 62px 0 24px;
+}
+
+.section-4 .col {
+    background: #F4F4F8;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 36px;
+    height: fit-content;
+    display: inline-block;
+}
+
+.section-4 .feedback-btns .btn-feedback {
+    background: #4D1299;
+    color: white;
+    border: 2px solid #4D1299;
+    border-radius: 50px;
+    padding: 18px 26px;
+    margin: 0px 8px;
+    cursor: pointer;
+    transition: .3s ease-out;
+    display: inline-block;
+}
+
+.section-4 .feedback-btns .btn-feedback.google {
+    background: #4D1299;
+    color: white;
+}
+
+.section-4 .feedback-btns .btn-feedback.google:hover {
+    background: white;
+    color: #4D1299;
+}
+
+.section-4 .feedback-btns .btn-feedback.facebook {
+    background: white;
+    color: #4D1299;
+}
+
+.section-4 .feedback-btns .btn-feedback.facebook:hover {
+    background: #4D1299;
+    color: white;
+}
+
+.section-4 .col img {
+    margin-top: 8px;
+}
+
+.section-4 h2 {
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
 }
 
 /* _____!FOOTER!_____ */
