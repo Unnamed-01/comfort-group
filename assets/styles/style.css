@@ -194,6 +194,13 @@ header .phone:hover {
     color: #4D1299;
 }
 
+.col .number {
+    color: #4D1299;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
 section.bg-gray {
     background: #F4F4F8;
 }
@@ -281,9 +288,29 @@ section.bg-gray {
 }
 
 .section-1 .privilege p span,
+.section-2 p span,
 .section-3 .advantages p span,
-.section-5 span {
+.section-5 p span {
     font-weight: 700;
+}
+
+.section-2 .container {
+    padding: 116px 0;
+}
+
+.section-2 .col {
+    background: #F4F4F8;
+    padding: 40px;
+    margin-bottom: 148px;
+    width: calc(100% /2 - 100px);
+    border-radius: 30px;
+    text-align: left;
+}
+
+.section-2 .ps p {
+    margin-top: 78px;
+    font-size: 16px;
+    opacity: 60%;
 }
 
 .section-3 .advantages .col {
@@ -365,15 +392,10 @@ section.bg-gray {
     margin-bottom: 64px;
     width: calc(100% /2 - 100px);
     border-radius: 30px;
+    text-align: left;
 }
 
-.section-5 .number {
-    color: #4D1299;
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 24px;
-}
-
+.section-2 h2,
 .section-5 h2 {
     font-size: 46px;
     text-align: center;
