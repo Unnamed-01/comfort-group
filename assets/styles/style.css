@@ -313,6 +313,111 @@ section.bg-gray {
     opacity: 60%;
 }
 
+.section-3 .container {
+    padding: 116px 0;
+}
+
+.section-3 .subscribe h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.section-3 .subscribe p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 657px;
+    margin: 16px 0 48px;
+}
+
+.section-3 .subscribe h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.section-3 .subscribe .content {
+    background: #EBE7F3;
+    border-radius: 30px;
+    padding: 88px 110px 88px 60px;
+    width: 990px;
+}
+
+.section-3 .subscribe .content .col:nth-child(1) {
+    width: calc(100%/2);
+}
+
+.section-3 .subscribe .content .col:nth-child(2) {
+    width: calc(100%/2 - 95px);
+    text-align: center;
+    margin-block: auto;
+}
+
+.section-3 .subscribe ul {
+    font-weight: 100;
+    font-size: 18px;
+    margin: 32px 0;
+}
+
+.section-3 .subscribe .content .col ul img {
+    margin-right: 12px;
+}
+
+.section-3 .subscribe .gift img {
+    width: 52.83px;
+    height: 50px;
+}
+
+.section-3 .subscribe .gift p {
+    font-size: 18px;
+    color: #4D1299;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section-3 .subscribe .gift p span {
+    font-weight: 600;
+}
+
+.section-3 .subscribe .col .number {
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section-3 .subscribe .col p {
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 60%;
+    margin: 8px 0 36px;
+    width: fit-content;
+}
+
+.section-3 .subscribe .col .btn.make-order {
+    width: -webkit-fill-available;
+}
+
+.section-3 .discount {
+    background: #4D1299;
+    margin: 48px auto 57px;
+    border-radius: 30px;
+    padding: 31px 115px 31px 60px;
+}
+
+.section-3 .discount p {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    color: #EBE7F3;
+    width: 55%;
+}
+
+.section-3 .discount p span {
+    background: #FF8427;
+    border-radius: 50px;
+    padding: 0 1%;
+}
+
 .section-3 .advantages .col {
     display: flex;
     width: 360px;
